@@ -1380,26 +1380,79 @@
 
 // outer();
 
-function createCounter() {
-  let count = 0;
-  function increment() {
-    count++;
-    console.log(`Count incresed to ${count}`);
-  }
+// function createCounter() {
+//   let count = 0;
+//   function increment() {
+//     count++;
+//     console.log(`Count incresed to ${count}`);
+//   }
 
-  function getCount() {
-    return count;
-  }
-  return { increment, getCount };
-}
+//   function getCount() {
+//     return count;
+//   }
+//   return { increment, getCount };
+// }
 
-const counter = createCounter();
+// const counter = createCounter();
 
-counter.increment();
-counter.increment();
-counter.increment();
-counter.increment();
-counter.increment();
-counter.increment();
+// counter.increment();
+// counter.increment();
+// counter.increment();
+// counter.increment();
+// counter.increment();
+// counter.increment();
 
-console.log(`the current count ${counter.getCount()}`);
+// console.log(`the current count ${counter.getCount()}`);
+
+// function sayHello() {
+//   window.alert("hello");
+// }
+
+// setTimeout(function(){window.alert("Hello")}, 4000);
+
+// const timeoutId = setTimeout(()=>window.alert("Hello"), 4000);
+
+// clearTimeout(timeoutId);
+
+// let timeoutId;
+
+// function startTimer() {
+//   timeoutId = setTimeout(() => window.alert("Hello"), 3000)
+//   console.log("Started");
+
+// }
+
+// function clearTimer() {
+//   clearTimeout(timeoutId);
+//   console.log("Cleared");
+// }
+
+// import {PI, getCircumference, getArea, getVolume} from './mathUtils.js';
+
+// console.log(PI);
+
+// const circumference = getCircumference(10);
+
+// console.log(`${circumference.toFixed(2)}cm`);
+
+// function func1(callback) {
+//   setTimeout(() => {
+//     console.log("Task1");
+
+//     callback();
+//   }, 3000); // db --> data is coming
+// }
+
+// function func2() {
+//   console.log("Task2");
+//   console.log("Task3");
+//   console.log("Task4");
+// }
+
+// func1(func2);
+
+console.lag("Hello");
+
+console.log("You have reached the end of the code");
+
+

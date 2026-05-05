@@ -527,6 +527,42 @@ We can Encapsulate the varaiable make them as private - prons of closures
 
 
 
+setTimeout - function in javascript that allows us to schedule that excution of a function after some amount of time 
+
+Times are apporoximate (varies baesd on the workload of the javascript runtime env)
+
+clearTimeout(timeoutId) - can cancel a timeout befroe it triggers
+
+
+setTimeout(callback, delay)
+
+
+ES6 Module - an external file that contains reusable code that can be imported into other javascript files.
+
+write reusable code for many differnt apps 
+can contains varaibles, classes, functions... and more 
+
+Introduced a part pf ECMAscript 2015 update
+
+
+
+
+
+
+synchronous - Excute line by line consectively in a sequential manner 
+
+code that wiats for an operation to complete 
+
+asynchronous - allows multiple operation to be performed concurrently without waiting does not block the execution flow and allows the progran to continue 
+
+(I/O opertion, network requests, fecting the from db)
+
+
+Handled with : callback, promises, asyn/await
+
+Error handling - an object that is created to represent a problem that occurs ofter, with user input or establishing a connection 
+
+
 
 
 
